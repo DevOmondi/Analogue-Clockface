@@ -12,12 +12,12 @@ const currentSeconds = new Date().getSeconds();
 // console.log("currentSeconds:",currentSeconds);
 
 // Get rotation angles
-const fullHours = 24;
+// const fullHours = 24;
 const clockFullDegrees = 360;
 const faceHours = 12;
 const faceMinutesSeconds = 60;
 // Hour rotation angle
-const hourRotationAngle = ((fullHours-currentHour)* clockFullDegrees)/faceHours;
+const hourRotationAngle = ((currentHour)* clockFullDegrees)/faceHours;
 // console.log("hourRotationAngle:",hourRotationAngle);
 
 // Minute rotation angle
